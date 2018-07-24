@@ -1,22 +1,62 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<link rel="stylesheet" href="NavBar.css">
+<script src="sidebar.js"></script>
 
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+</style>
+
+<script>
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+</script>
+<div id="main">
   <title>Hungry.</title>
-  <h1 class="logo"><b><center>Hungry.</center></b></h1>
-  <link rel="stylesheet" href="NavBar.css">
-
-  <div class="topnav">
-    <a href="Food.html"> Food <i class="arrow down"></i></a>
-    <a href="Drinks.html"> Drinks <i class="arrow down"></i></a>
-    <a href="Recipes.html"> Contact <i class="arrow down"></i></a>
-    <a href="Location.html"> Location <i class="arrow down"></i></a>
-  </div>
+  <h1 class="logo">
+    <div id="mySidenav"class="sidenav" onclick="myFunction(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  <b><center>Hungry.</center></b>
+</div>
+  </h1>
 
 </head>
 <body>
 <h1>Food</h1>
 
 </body>
+</div>
 </html>
