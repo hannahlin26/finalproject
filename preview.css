@@ -19,14 +19,10 @@ font-size: 250px;
 color: #fff;
 
 }
-
 li{
-
-  color:#fff;
-  font-size: 40px;
-  font-family:breamcatcher;
-  text-decoration: none;
+  list-style-type: none;
 }
+
 li a:link, li a:visited{
   float: left;
   text-decoration: none;
@@ -42,6 +38,8 @@ li a:link, li a:visited{
 	color: #fff;
 	text-align: center;
 	text-decoration: none;
+  font-size: 40px;
+  font-family:breamcatcher;
 }
 
 li a:hover {
