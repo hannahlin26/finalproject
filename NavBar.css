@@ -1,5 +1,6 @@
 /* header */
 .logo {
+<<<<<<< HEAD
   font-family: phenixamerican;
   font-size: 80px;
   background-color: #F7CB50;
@@ -15,6 +16,16 @@
     background-color: #4CAF50;
     color: white;
 } */
+=======
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 50px;
+  background-color: #F7CB50;
+  color: white;
+  padding: 30px;
+}
+
+>>>>>>> 5f59011bc0b03853261d1c5b1c17a6c878921f47
 
 a:active {
     background-color: yellow;
@@ -24,9 +35,9 @@ a:active {
 
 i {
     border: solid white;
-    border-width: 0 3px 3px 0;
+    border-width: 0 0px 0px 0;
     display: inline-block;
-    padding: 3px;
+    padding: 0px;
 }
 
 .down {
