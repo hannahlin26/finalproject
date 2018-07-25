@@ -1,15 +1,76 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+
+
+<div id="main">
+
+
+
+  <link rel="stylesheet" href="NavBar.css">
+  <link rel="stylesheet" href="SideBar.css">
+  <script src="sidebar.js"></script>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script>
+  function myFunction(x) {
+      x.classList.toggle("change");
+  }
+  </script>
 
   <title>Hungry.</title>
-  <h1 class="logo"><b><center>Hungry.</center></b></h1>
-  <link rel="stylesheet" href="NavBar.css">
 
-</head>
-<body>
-<h1>Location</h1>
 
-</body>
+
+  <h1 class="logo">
+    <div id="logo">
+        <span onclick="openNav()">
+          <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </span>
+        </div>
+      <b><center>Hungry.</center></b>
+  </h1>
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <head><h2>MENU<h2></head>
+        <a href="Home.html">Home</a>
+        <a href="Food.html">Food</a>
+        <a href="Drinks.html">Drinks</a>
+        <a href="Recipes.html">Recipes</a>
+        <a href="Location.html">Location</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <head>
+  </head>
+  <body>
+  <h1>Food</h1>
+
+
+
+  </body>
+
+
+
+</div>
+
+
+
 </html>
