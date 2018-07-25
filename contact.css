@@ -10,6 +10,7 @@
 }
 
 .wrapper{
+	position: relative;bottom: 120px;
 
 }
 body{
@@ -42,7 +43,7 @@ label {
 
 input, select {
 	background-color: #e4e4e4;
-	color: #d8d8d8;
+	color: #000;
 	border: 0px #fff solid;
 	display: block;
 	height: 46px;
@@ -60,7 +61,7 @@ input:focus, selected:focus, textarea:focus {
 
 textarea {
 	background-color: #e4e4e4;
-	color: #d8d8d8;
+	color: #000;
 	border: 0px #fff solid;
 	display: block;
 	height: 150px;
