@@ -2,7 +2,7 @@
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -17,21 +17,12 @@
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #111; /* Black*/
+    background-color:lightblue; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
-/* The navigation menu links */
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
@@ -69,9 +60,10 @@
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
-    background-color: #333;
+    background-color: #fff;
     margin: 6px 0;
     transition: 0.4s;
+    position: relative;top:60px;
 }
 
 /* Rotate first bar */
@@ -94,5 +86,12 @@
 
 h2 {
   font-style: oblique;
+  font-family:monospace;
   color: white;
+  margin-left:20px;
+}
+
+@font-face{
+	font-family:phenixamerican;
+	src:url(font/phenix_american.woff)
 }
