@@ -54,82 +54,82 @@
 */
 
 
-/* Navbar container */
-.navbar {
-  overflow: hidden;
-  background-color: #87b0f2;
-  font-family: Arial;
-}
-
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+a {
   text-decoration: none;
 }
 
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
+nav {
+    font-family: monospace;
+    font-size:20px;
+    margin-top:-120px;
 }
 
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
+ul {
+  background: lightblue;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    color: #fff;
+  background: lightblue;
+    display: block;
+    float: left;
+    padding: 20px;
+    width:31%;
+    margin-left:-10px;
+    position: relative;
+    text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+li a {
+  color: #fff;
+}
+
+li:hover,
+li:focus-within {
+    background:#8ab6fc;
+    cursor: pointer;
+}
+
+li:focus-within a {
   outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
+ul li ul {
+    background: lightblue;
+    visibility: hidden;
+  opacity: 0;
+  width: 89.5%;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 20px;
+    left: 10px;
   display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
 }
 
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+   visibility: visible;
+   opacity: 1;
+   display: block;
 }
 
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
+ul li ul li {
+    clear: both;
+  width: 100%;
 }
 
 
 
-
+/* header */
 .logo {
   font-family: phenixamerican;
-  font-size: 200px;
+  font-size: 180px;
   background-color: #F7CB50;
   color: white;
   padding: 30px;
