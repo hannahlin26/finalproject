@@ -62,9 +62,9 @@ nav {
     font-family: monospace;
     font-size:14px;
     z-index: 99999999999;
-    margin-top:-385px;
-    margin-left: 280px;
-    position: relative;bottom: 16px;
+    margin-left: 270px;
+    position: fixed;
+    top: 0px;
 }
 
 ul {
@@ -82,7 +82,7 @@ li {
   z-index: 99999999999;
     display: block;
     float: right;
-    padding: 15px;
+    padding: 13px;
     width:20%;
     margin-left:-10px;
     position: relative;
@@ -109,11 +109,11 @@ ul li ul {
     background: lightblue;
     visibility: hidden;
   opacity: 0;
-  width: 83%;
+  width: 95%;
     position: absolute;
   transition: all 0.5s ease;
-  margin-top: 15px;
-    left: 40px;
+  margin-top: 13px;
+    left: 10px;
   display: none;
 }
 
@@ -154,7 +154,7 @@ ul li ul li {
   padding: 30px;
   margin-top:40px;
   margin-left: -10px;
-  width:100%;
+  width:105%;
   border-bottom: 15px solid #F7CB50;
 
 }
