@@ -1,0 +1,12 @@
+
+@font-face{
+	font-family:phenixamerican;
+	src:url(font/phenix_american.woff)
+}
+li{
+  font-family: phenixamerican;
+  list-style: none;
+}
+ol{
+  list-style:none;
+}

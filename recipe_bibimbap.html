@@ -1,32 +1,73 @@
 <!DOCTYPE html>
-
 <html>
 
+<div id="main">
+
+  <link rel="stylesheet" href="NavBar.css">
+  <link rel="stylesheet" href="SideBar.css">
+  <link rel="stylesheet" href="Location.css">
+  <link rel="stylesheet" href="recipe_format.css">
+  <script src="sidebar.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script>
+  function myFunction(x) {
+      x.classList.toggle("change");
+  }
+  </script>
+
+  <title>Hungry. | Location</title>
+
+
+
+  <h1 class="logo">
+    <div id="logo">
+        <span onclick="openNav()">
+          <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </span>
+        </div>
+      <b><center>Hungry.</center></b>
+  </h1>
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <head><h2>MENU<h2></head>
+        <a href="index.html">Home</a>
+        <a href="Food.html">Food</a>
+        <a href="Drinks.html">Drinks</a>
+        <a href="Recipes.html">Recipes</a>
+        <a href="Location.html">Location</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
 <head>
-
-  <title>Hungry.| Bibimbap</title>
-  <h1 class="logo"><center>Hungry.</center></b></h1>
-
 </head>
 
 <body>
-<ul>
-  <li>Ingredients</li>
-    <ol>
-      <li>1 English cucumber cut into matchsticks</li>
-      <li>1/4 cup of gochujang(Korean hot pepper paste)</li>
-      <li>1 bunch fresh spinach, cut into thin strips</li>
-      <li>1 tablespoon soy sauce</li>
-      <li>1 teaspoon olive oil</li>
-      <li>2 carrots, cut into matchsticks</li>
-      <li>1 clove garlic, minced</li>
-      <li>1 pound thinly-sliced beef top round steak</li>
-      <li>4 large eggs</li>
-      <li>4 cups cooked white rice</li>
-      <li>4 teaspoons toasted sesame oil,divided
-      <li>1 teaspoon sesame seeds</li>
-      <li>1 pinch Korean red pepper flakes</li>
-    </ol>
+<div id="">
+  <ul>
+    <li>Ingredients</li>
+      <ol>
+        <li>1 English cucumber cut into matchsticks</li>
+        <li>1/4 cup of gochujang(Korean hot pepper paste)</li>
+        <li>1 bunch fresh spinach, cut into thin strips</li>
+        <li>1 tablespoon soy sauce</li>
+        <li>1 teaspoon olive oil</li>
+        <li>2 carrots, cut into matchsticks</li>
+        <li>1 clove garlic, minced</li>
+        <li>1 pound thinly-sliced beef top round steak</li>
+        <li>4 large eggs</li>
+        <li>4 cups cooked white rice</li>
+        <li>4 teaspoons toasted sesame oil,divided
+        <li>1 teaspoon sesame seeds</li>
+        <li>1 pinch Korean red pepper flakes</li>
+        </ol>
+</div>
+<div id="">
   <li> Instructions </li>
     <ol>
       <li>Stir cucumber pieces with 1/4 cup gochujang paste in a bowl; set aside.</li>
@@ -42,8 +83,7 @@
       <li>To assemble the dish, divide cooked rice into 4 large serving bowls; top with spinach mixture, a
       few pieces of beef, and cucumber mixture. Place 1 egg atop each serving. Drizzle each bowl with 1
       teaspoon of sesame oil, a sprinkle of sesame seeds, and a small amount of gochujang paste if desired.</li>
-
-
+</div>
 
 </ul>
 
@@ -52,6 +92,6 @@
 </body>
 
 <footer>
-  https://www.allrecipes.com/recipe/228240/bibimbap-korean-rice-with-mixed-vegetables/
+  This recipe came from https://www.allrecipes.com/recipe/228240/bibimbap-korean-rice-with-mixed-vegetables/
 </footer>
 </html>

@@ -1,12 +1,50 @@
 <!DOCTYPE html>
-
 <html>
 
+<div id="main">
+
+  <link rel="stylesheet" href="NavBar.css">
+  <link rel="stylesheet" href="SideBar.css">
+  <link rel="stylesheet" href="Location.css">
+  <link rel="stylesheet" href="recipe_format.css">
+  <script src="sidebar.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script>
+  function myFunction(x) {
+      x.classList.toggle("change");
+  }
+  </script>
+
+  <title>Hungry. | Location</title>
+
+
+
+  <h1 class="logo">
+    <div id="logo">
+        <span onclick="openNav()">
+          <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </span>
+        </div>
+      <b><center>Hungry.</center></b>
+  </h1>
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <head><h2>MENU<h2></head>
+        <a href="index.html">Home</a>
+        <a href="Food.html">Food</a>
+        <a href="Drinks.html">Drinks</a>
+        <a href="Recipes.html">Recipes</a>
+        <a href="Location.html">Location</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
 <head>
-
-  <title>Hungry.| Pho</title>
-  <h1 class="logo"><center>Hungry.</center></b></h1>
-
 </head>
 
 <body>
