@@ -142,12 +142,23 @@ ul li ul li {
   font-family: phenixamerican;
   font-size: 150px;
   background-color: #F7CB50;
-  text-align: left;
+  text-align: center;
   color: white;
   padding: 30px;
   margin-top:40px;
   margin-left: -10px;
   width:100%;
+}
+
+
+.name {
+  font-family: phenixamerican;
+  font-size: 30px;
+  padding-top:5px;
+  letter-spacing:2px;
+  background-color:;
+  text-align: left;
+  color: white;
 }
 
 /* .active {
