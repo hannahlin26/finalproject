@@ -25,11 +25,7 @@ a:hover {
 #container {
     width:80%; /* width of space the contents take up */
     margin:80px auto;
-<<<<<<< HEAD
-    margin-top:400px;
-=======
     margin-top:300px;
->>>>>>> 83b0f6050be276fac5274f175a7d905e2a6ffa6b
     margin-left: -360px;
 }
 
