@@ -1,0 +1,28 @@
+#cofftea{
+
+}
+#boba{
+
+}
+#smoothie{
+
+}
+h2{
+  text-align: center;
+}
+.resize {
+    width: 300px;
+    height: auto;
+    float: left;
+    position: relative;left:100px;
+
+
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
