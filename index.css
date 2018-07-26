@@ -64,10 +64,12 @@ nav {
     z-index: 99999999999;
     margin-top:-385px;
     margin-left: 280px;
+    position: relative;bottom: 16px;
 }
 
 ul {
   background: lightblue;
+  z-index: 99999999999;
     list-style: none;
     margin: 0;
     padding-left: 0;
@@ -76,6 +78,7 @@ ul {
 li {
     color: #fff;
   background: lightblue;
+  z-index: 99999999999;
     display: block;
     float: right;
     padding: 15px;
@@ -131,7 +134,7 @@ ul li ul li {
 .top{
     position:fixed;
     background:#8ab6fc;
-    z-index:-9;
+    z-index:9;
     width:100%;
     left:0;
     height: 43px;
@@ -141,25 +144,19 @@ ul li ul li {
 .logo {
   font-family: phenixamerican;
   font-size: 150px;
-  background-color: #F7CB50;
+  background-image: url("images/homepage.png");
   text-align: center;
   color: white;
   padding: 30px;
   margin-top:40px;
   margin-left: -10px;
   width:100%;
+  border-bottom: 15px solid #F7CB50;
+
 }
 
 
-.name {
-  font-family: phenixamerican;
-  font-size: 30px;
-  padding-top:5px;
-  letter-spacing:2px;
-  background-color:;
-  text-align: left;
-  color: white;
-}
+
 
 /* .active {
     background-color: #4CAF50;
