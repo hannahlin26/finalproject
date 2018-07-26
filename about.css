@@ -25,7 +25,7 @@ a:hover {
 #container {
     width:80%; /* width of space the contents take up */
     margin:80px auto;
-    margin-top:260px;
+    margin-top:300px;
     margin-left: -360px;
 }
 
@@ -44,8 +44,8 @@ a:hover {
 }
 
 .block-info {
-    overflow-y:scroll;
-    height:200px;
+    overflow-y:;
+    height:auto;
     padding-right:4em;
     width:calc(100% + 2em + 1px);
 }
