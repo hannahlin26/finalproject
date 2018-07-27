@@ -177,7 +177,7 @@
 
   			}
 
-        
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -1095,3 +1095,6 @@
 			}
 
 		}
+html{
+	overflow-x: hidden;
+}
