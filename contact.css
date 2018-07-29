@@ -1,21 +1,50 @@
+
+
+/* Main */
+
+	#main {
+		padding: 4em 4em 2em 4em;
+		background-color: #ffffff;
+		border-radius: 4px;
+	}
+
+		#main > header:first-child {
+			text-align: center;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#main {
+				padding: 2em 2em 0.1em 2em;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#main {
+				padding: 2em 1em 0.1em 1em;
+			}
+
+		}
+html{
+	overflow-x: hidden;
+}
+
+
+
+
 #wrappertwo {
 	width: 500px;
 	margin: 20px auto;
   position: relative;top: 50px;
 
 }
-#contactpage{
-	float:left;
-
-}
-
-.wrapper{
+/.wrapper{
 	position: relative;bottom: 120px;
 
 }
-body{
-  overflow: hidden;
-}
+
 form {
 	font-family:phenixamerican;
 	font-size: 25px;
@@ -30,6 +59,7 @@ form {
 
 label {
 	display: block;
+	position: relative; left: 100px;
 	float: left;
 	clear: left;
 	width: 250px;
@@ -67,6 +97,7 @@ textarea {
 	margin: 10px;
 	width: 685px;
 	border-radius: 5px;
+	position: relative; left: 100px;
 }
 
 #submit {
@@ -103,11 +134,13 @@ textarea {
 }
 #email{
 	border-radius: 5px;
+	position: relative; left: 100px;
 }
 
 #username{
 
 	border-radius: 5px;
+	position: relative; left: 100px;
 }
 
 label{
