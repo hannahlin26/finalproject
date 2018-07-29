@@ -70,7 +70,7 @@ label {
 }
 
 input, select {
-	background-color: #e4e4e4;
+	background-color: #ADD8ED;
 	color: #000;
 	border: 0px #fff solid;
 	display: block;
@@ -83,29 +83,30 @@ input, select {
 
 
 input:focus, selected:focus, textarea:focus {
-	background-color: #e4e4e4;
+	background-color: #83C9EA;
 }
 
 
 textarea {
-	background-color: #e4e4e4;
+	background-color: #ADD8ED;
 	color: #000;
 	border: 0px #fff solid;
 	display: block;
 	height: 150px;
 	float: left;
 	margin: 10px;
-	width: 685px;
+	width: 680px;
 	border-radius: 5px;
-	position: relative; left: 100px;
+	position: relative; left: 95px;
+ 
 }
 
 #submit {
-	background-color: #111;
+	background-color: #F7CB50;
 	color: #fff;
 	padding: 20px;
 	float:left;
-  position: relative;left: 580px;
+  position: relative;left: 680px;
 	width: auto;
 	text-align: center;
 	line-height: 0px;
