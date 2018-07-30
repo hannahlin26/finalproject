@@ -2,7 +2,39 @@
 
 <html>
 
+
 <head>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+  <script src="http://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+
+  <script>
+
+  (function($){
+
+  $(document).ready(function(){
+
+  $("a[title]").style_my_tooltips({
+
+  tip_follows_cursor:true,
+
+  tip_delay_time:90,
+
+  tip_fade_speed:600,
+
+  attribute:"title"
+
+  });
+
+  });
+
+  })(jQuery);
+
+  </script>
+  <!--basic tooltip from tutorial-baby! Enjoy-->
+
+
   <script type="text/javascript" src="http://static.tumblr.com/dbek3sy/Qyblrgjfn/jqueryinfintescroll.js"></script>
 
 
@@ -15,7 +47,7 @@
 
   <nav role="navigation" style="width:80%; z-index:99999999;">
   <ul>
-    <li><a href="food.html" aria-haspopup="true">Food</a>
+    <li><a href="food.html" aria-haspopup="true" title="search by type">Food</a>
       <ul class="dropdown" aria-label="submenu">
         <li><a href="breakfast.html">Brunch</a></li>
         <li><a href="dinner.html">Dinner</a></li>
@@ -23,14 +55,14 @@
         <li><a href="cafe.html">Cafe</a></li>
       </ul>
     </li>
-    <li><a href="drinks.html" aria-haspopup="true">Drinks</a>
+    <li><a href="drinks.html" aria-haspopup="true" title="search by type">Drinks</a>
       <ul class="dropdown" aria-label="submenu">
         <li><a href="cofftea.html">Coffee/Tea</a></li>
         <li><a href="boba.html">Boba</a></li>
         <li><a href="smoothies.html">Juice/Smoothies/Slush</a></li>
       </ul>
     </li>
-    <li><a href="recipes.html" aria-haspopup="true">Recipe</a>
+    <li><a href="recipes.html" aria-haspopup="true" title="variety of homemade stuff">Recipes</a>
       <ul class="dropdown" aria-label="submenu">
         <li><a href="recipe_bibimbap.html">Bibimbap</a></li>
         <li><a href="recipe_crepe_cake.html">Crepe cake</a></li>
@@ -42,7 +74,7 @@
         <li><a href="recipe_garlic_penne_pasta.html">Garlic Penne Pasta</a></li>
       </ul>
     </li>
-    <li><a href="location.html" aria-haspopup="true">Location</a>
+    <li><a href="location.html" aria-haspopup="true" title="search by city">Location</a>
       </ul>
     </li>
   </ul>
