@@ -1,4 +1,5 @@
 @import url(font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url("https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro:200,400");
 
 /*
@@ -682,6 +683,7 @@
 		background-color: #ffffff;
 		border-radius: 4px;
 		text-align: center;
+		font-family:'Montserrat', sans-serif;
 	}
 
 		.item header {
@@ -1095,3 +1097,7 @@
 			}
 
 		}
+
+	p{
+		font-size:13px;
+	}
