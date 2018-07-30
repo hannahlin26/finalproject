@@ -1,0 +1,47 @@
+var swup = new Swup()
+
+
+.a-fade {
+    transition: .4s;
+    opacity: 1;
+}
+html.is-animating .a-fade{
+    opacity: 0;
+}
+
+.loading {
+    display: none;
+}
+html.is-changing .loading{
+    display: block;
+}
+
+
+/*** Works on common browsers ***/
+::selection {
+    background-color: yellow;
+    color: #fff;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color: #352e7e;
+    color: #fff;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color: #352e7e;
+    color: #fff;
+}
+
+::-ms-selection {
+    background-color: #352e7e;
+    color: #fff;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color: #352e7e;
+    color: #fff;
+}

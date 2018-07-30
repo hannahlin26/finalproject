@@ -193,3 +193,8 @@ div {
 	font-family:phenixamerican;
 	src:url(font/phenix_american.woff)
 }
+
+::selection {
+    background-color: #F7CB50;
+    color: #fff;
+}

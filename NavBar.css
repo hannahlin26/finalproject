@@ -63,3 +63,8 @@ b{
   -ms-transform: scale(1.02);
   transform: scale(1.2);
 }
+
+::selection {
+    background-color: #F7CB50;
+    color: #fff;
+}
