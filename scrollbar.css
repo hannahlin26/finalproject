@@ -1,4 +1,2 @@
-<script type="text/javascript" src="http://static.tumblr.com/dbek3sy/Qyblrgjfn/jqueryinfintescroll.js"></script>
-
-::-webkit-scrollbar {width: 5px; height: 5px; background: #FFFFFF;}
-::-webkit-scrollbar-thumb {background-color:#ffcccc;}
+::-webkit-scrollbar {width: 10px; height: 10px; background: #FFFFFF;}
+::-webkit-scrollbar-thumb {background-color:#8ab6fc; border-radius: 0px;}
