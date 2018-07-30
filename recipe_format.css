@@ -1,16 +1,70 @@
 
-@font-face{
+/*@font-face{
 	font-family:phenixamerican;
 	src:url(font/phenix_american.woff)
+}*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@font-face{
+	font-family:atlantic;
+	src:url("font/atlantic.woff")
+}
+
+@font-face{
+	font-family:market;
+	src:url("font/Market_Deco.woff")
+}
+@font-face{
+	font-family: lemonmilk;
+	src:url("font/lemonmilk.woff")
+}
+
+@font-face{
+	font-family: bebas;
+	src:url("font/bebas.woff")
+}
+@font-face{
+	font-family:titling;
+	src:url("font/titling.woff")
 }
 li{
-  font-family: phenixamerican;
   list-style: none;
+	font-family: Montserrat;
+
 }
 ol{
   list-style:none;
+	padding-bottom: 20px;
+
 }
 
 html{
 	overflow-x: hidden;
+}
+
+header{
+	position: relative;left: 800px;
+
+
+}
+
+ul{
+	position: relative;bottom:300px;
+}
+
+#info{
+	position: relative;bottom:300px;
+}
+
+h6{
+	font-family: bebas;
+	color:#ADD8ED;
+	font-style: normal;
+	font-size: 20px;
+	border-bottom:2px solid #ADD8ED;
+	display: inline;
+	margin:2px;
+	letter-spacing: 1px;
+	position: relative;bottom: 20px;
+
 }

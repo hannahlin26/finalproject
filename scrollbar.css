@@ -1,2 +1,5 @@
 ::-webkit-scrollbar {width: 10px; height: 10px; background: #FFFFFF;}
 ::-webkit-scrollbar-thumb {background-color:#8ab6fc; border-radius: 0px;}
+html{
+  overflow-x: hidden;
+}
