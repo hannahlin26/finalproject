@@ -823,7 +823,7 @@
 			-ms-flex-wrap: nowrap;
 			flex-wrap: nowrap;
 			width: 100%;
-			margin: 0;
+			margin: 0 ;
 		}
 
 			.items .item {
@@ -1095,6 +1095,3 @@
 			}
 
 		}
-html{
-	overflow-x: hidden;
-}
