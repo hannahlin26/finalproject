@@ -96,3 +96,9 @@ h2 {
 	font-family:phenixamerican;
 	src:url(font/phenix_american.woff)
 }
+
+.sidelogo{
+    position: relative; top:200px;
+    position:relative;left:50px;
+
+}
