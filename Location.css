@@ -16,6 +16,10 @@
   display: table;
 }
 
+img:hover{
+  opacity:0.8;
+  transition: all .5s ease;
+}
 
 
 
