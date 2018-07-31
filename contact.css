@@ -117,6 +117,7 @@ textarea {
 	border-radius: 5px;
   text-decoration:none;
   box-shadow:0px 0px 0 #ddd inset;
+	transition: all 0.3s ease;
 }
 
 #submit:hover{
@@ -124,6 +125,7 @@ textarea {
   background:#ddd;
   box-shadow:-280px -90px 0px #088 inset;
   text-shadow:1px 1px 0 #077
+	transition: all 0.3s ease;
 }
 
 
@@ -164,4 +166,5 @@ label{
         -webkit-transform: scale(1.05);
         -ms-transform: scale(1.02);
         transform: scale(1.05);
+				transition: all .5s ease;
 }
