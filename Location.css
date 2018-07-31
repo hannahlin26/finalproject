@@ -16,6 +16,11 @@
   display: table;
 }
 
+img:hover{
+  opacity:0.5;
+  transition: all .5s ease;
+}
+
 /* .column:hover{
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
