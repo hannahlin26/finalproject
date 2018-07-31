@@ -64,6 +64,7 @@
     margin: 6px 0;
     transition: 0.4s;
     position: relative;top:60px;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 /* Rotate first bar */

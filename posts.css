@@ -684,6 +684,7 @@
 		border-radius: 4px;
 		text-align: center;
 		font-family:'Montserrat', sans-serif;
+		font-size: 13px;
 	}
 
 		.item header {
@@ -708,6 +709,7 @@
 			color: rgba(255, 255, 255, 0.75);
 			position: relative;
 			overflow: hidden;
+			box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
 		}
 
 			.item header input, .item header select, .item header textarea {
@@ -869,8 +871,8 @@
 
 	#wrapper {
 		width: 64em;
-		margin-left:800px;
-    margin-top:-650px;
+		margin-left:430px;
+    margin-top:-100px;
 		max-width: calc(100% - 4em);
 		padding: 4em 0 2em 0;
 	}
