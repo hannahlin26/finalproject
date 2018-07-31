@@ -781,7 +781,6 @@
 			}
 
 
-<<<<<<< HEAD
 
 			.item header:hover img{
 				zoom: 1;
@@ -790,8 +789,6 @@
 				opacity: 1;
 				-webkit-filter:grayscale(40%);
 				}
-=======
->>>>>>> 5f93efcd85228d63e5f71d9641d7f19b6019b62b
 
 			.item header > * {
 				position: relative;
