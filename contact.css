@@ -161,10 +161,13 @@ label{
 
 }
 
+.grow{
+	transition: all ease-in-out .3s;
+}
+
 .grow:hover
 {
         -webkit-transform: scale(1.05);
         -ms-transform: scale(1.02);
         transform: scale(1.05);
-				transition: all ease-in-out .3s;
 }

@@ -60,3 +60,16 @@ body {
 html{
   overflow-x: hidden;
 }
+
+img{
+  transition: all ease-in-out .5s;
+  -webkit-transform: all ease-in-out .5s;
+  -ms-transform: all ease-in-out .5s;
+}
+
+img:hover
+{
+        -webkit-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+        transform: scale(1.15);
+}
